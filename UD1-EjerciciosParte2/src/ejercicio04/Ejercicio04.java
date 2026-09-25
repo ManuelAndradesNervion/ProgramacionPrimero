@@ -22,7 +22,7 @@ public class Ejercicio04 {
 	
 	sc.close(); //esta línea se encarga de hacer el sistema no lea más entradas.
 	
-	System.out.print("La funcion con los valores añadidos es: y = " + a + " * " + x + "^2 + " + b + " + " + x + " + " + c); //Se muestra en pantalla la fórmula original con los valores ya sustituidos en su lugar, tal como pedía el enunciado (sin resolver la operación).
+	System.out.print("La funcion con los valores añadidos es: y = " + a + " * " + x + "^2 + " + b + " * " + x + " + " + c); //Se muestra en pantalla la fórmula original con los valores ya sustituidos en su lugar, tal como pedía el enunciado (sin resolver la operación).
 	}
 
 }
