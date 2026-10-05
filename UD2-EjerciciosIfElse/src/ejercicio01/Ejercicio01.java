@@ -11,6 +11,7 @@ public class Ejercicio01 {
 
 		System.out.print("Introduce un número: ");
 		numero = sc.nextInt();
+		sc.close();
 
 		if (numero % 2 == 0) {
 			System.out.println("El numero introducido es par.");

@@ -15,6 +15,8 @@ public class Ejercicio03 {
 		System.out.print("Introduce el año y el mes respectivamente, separados por un espacio: ");
 		anyo = sc.nextInt();
 		mes = sc.nextInt();
+		
+		sc.close();
 
 		if (anyo % 400 == 0 || anyo % 4 == 0 && anyo % 100 != 0) {
 			esBisiesto = true;
@@ -51,7 +53,6 @@ public class Ejercicio03 {
 					System.out.println("El mes que ha introducido tiene " + dias + " días ya que el mes es febrero y no es un año (" + anyo + ") bisiesto.");
 				}
 				return;
-
 			}
 
 		}
