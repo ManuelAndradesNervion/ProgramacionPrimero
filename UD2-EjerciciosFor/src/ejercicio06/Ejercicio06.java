@@ -14,13 +14,13 @@ public class Ejercicio06 {
 			nota = sc.nextInt();
 			if (nota < 5) {
 				System.out.println("Se ha detectado un suspenso.");
+				sc.close();
 				break;
-			} else {
+			} else if (notas == 5) {
 				System.out.println("No se ha detectado ningún suspenso.");
+				sc.close();
 			}
-
 		}
-		
-	}
 
+	}
 }
