@@ -20,23 +20,23 @@ public class Ejercicio06_2 {
 
 			if (comprobacion > 1 && comprobacion < 9) {
 				cifras = 1;
-				System.out.println(cifras);
+				System.out.println("Tiene " + cifras + " cifras.");
 				return;
 			} else if (comprobacion > 10 && comprobacion < 99) {
 				cifras = 2;
-				System.out.println(cifras);
+				System.out.println("Tiene " + cifras + " cifras.");
 				return;
 			} else if (comprobacion > 100 && comprobacion < 999) {
 				cifras = 3;
-				System.out.println(cifras);
+				System.out.println("Tiene " + cifras + " cifras.");
 				return;
 			} else if (comprobacion > 1000 && comprobacion < 9999) {
 				cifras = 4;
-				System.out.println(cifras);
+				System.out.println("Tiene " + cifras + " cifras.");
 				return;
 			} else if (comprobacion > 10000 && comprobacion < 99999) {
 				cifras = 5;
-				System.out.println(cifras);
+				System.out.println("Tiene " + cifras + " cifras.");
 				return;
 			}
 		}
