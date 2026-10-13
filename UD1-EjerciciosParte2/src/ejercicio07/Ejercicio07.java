@@ -7,7 +7,7 @@ public class Ejercicio07 {
 	public static void main(String[] args) {
 
 		Integer numeroDeEntradasActual = 0, numeroDeEntradasTotales;
-		double entradaInfantil = 15.50, entradaAdulto = 20, descuento = 5, totalPrecio = 0;
+		double entradaInfantil = 15.50, entradaAdulto = 20, totalPrecio = 0;
 		String tipoDeEntrada;
 		Scanner sc = new Scanner(System.in);
 
@@ -32,6 +32,8 @@ public class Ejercicio07 {
 
 			numeroDeEntradasActual++;
 		}
+		
+		sc.close();
 
 		if (totalPrecio >= 100) {
 			totalPrecio = totalPrecio - (0.05 * totalPrecio);
@@ -39,7 +41,7 @@ public class Ejercicio07 {
 			System.out.println("Has superado los 100€, por lo que se te ha aplicado un descuento del 5%. \nCon el descuento se te queda en: " + totalPrecio + "€." );
 			return;
 		}
-
+		
 		System.out.println("Al no alcanzar los 100€, no se te ha aplicacdo ningún descuento. \nEl precio total es de: " + totalPrecio + "€.");
 	}
 

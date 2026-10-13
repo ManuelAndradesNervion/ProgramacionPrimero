@@ -13,6 +13,8 @@ public class Ejercicio06 {
 		numero1 = sc.nextDouble(); //El sistema espera a que el usuario escriba el valor de numero1.
 		numero2 = sc.nextDouble(); //El sistema espera a que el usuario escriba el valor de numero2.
 
+		sc.close();
+		
 		suma = numero1 + numero2; //La variable suma toma el valor de la suma de numero1 y numero2.
 		multiplicacion = numero1 * numero2; //La variable multiplicacion toma el valor de la multiplicacion de numero1 y numero2.
 

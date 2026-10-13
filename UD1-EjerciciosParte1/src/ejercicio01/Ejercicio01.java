@@ -12,6 +12,8 @@ public class Ejercicio01 {
 		Scanner sc = new Scanner(System.in); //La clase Scanner permite leer el número introducido.
 		x = sc.nextInt(); //El número introducido solo puede ser leído si es un número entero. El valor introducido será el nuevo valor de x.
 		
+		sc.close();
+		
 		System.out.println("El numero introducido es: " + x); //El sistema escribe en pantalla "El número introducidoaes: " y el valor de la variable x.
 	}
 

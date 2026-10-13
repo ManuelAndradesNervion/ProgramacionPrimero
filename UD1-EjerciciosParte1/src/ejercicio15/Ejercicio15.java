@@ -12,6 +12,7 @@ public class Ejercicio15 {
 
 		System.out.print("Introduce un precio para añadirle el IVA del 21%: "); //El sistema escribe en pantalla para que el usuario sepa qué debe escribir.
 		precio = sc.nextDouble(); //El sistema espera a que el usuario introduzca el precio y le asigna ese valor a la variable precio.
+		sc.close();
 
 		precioIva = ((precio * IVA) / 100) + precio; //Se calcula el 21% del precio (precio * IVA / 100) y se suma al precio original, obteniendo el precio final con el IVA aplicado.
 		System.out.println("El precio con el IVA incluído es de: " + precioIva + "€"); //Se muestra en pantalla el precio final junto con el símbolo del euro.

@@ -19,6 +19,8 @@ public class Ejercicio07 {
 		System.out.print("Escribe tu teléfono: "); //El sistema imprime en pantalla para que el usuario sepa qué debe escribir.
 		telefono = sc.nextInt(); //El sistema espera a que el usuario escriba su número de teléfono.
 		
+		sc.close();
+		
 		System.out.println("Nombre: " + nombre); //El sistema imprime en pantalla un mensaje + el nombre escrito anteriormente por el usuario.
 		System.out.println("Dirección: " + direccion); //El sistema imprime en pantalla un mensaje + la dirección escrita anteriormente por el usuario.
 		System.out.println("Teléfono: "+ telefono); //El sistema imprime en pantalla un mensaje + el teléfono escrito anteriormente por el usuario.

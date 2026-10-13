@@ -6,7 +6,7 @@ public class Ejercicio01variante {
 
 	public static void main(String[] args) {
 
-		double numeroIntroducido, resta;
+		double numeroIntroducido;
 
 		Scanner sc = new Scanner(System.in);
 
@@ -16,10 +16,6 @@ public class Ejercicio01variante {
 
 		double techo = Math.ceil(numeroIntroducido);
 		double suelo = Math.floor(numeroIntroducido);
-		
-		
-		
-		
 		
 		Integer res = (numeroIntroducido +0.5 )>techo? (int)techo : (int)suelo;
 		
