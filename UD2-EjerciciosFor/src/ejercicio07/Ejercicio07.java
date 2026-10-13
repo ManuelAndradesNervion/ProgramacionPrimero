@@ -8,8 +8,9 @@ public class Ejercicio07 {
 
 		Integer numero = 701;
 		Boolean esPrimo = false;
+		Scanner sc = new Scanner(System.in);
 		
 		
-		
+		sc.close();
 	}
 }
