@@ -17,6 +17,8 @@ public class Ejercicio03 {
 		System.out.print("Ahora, escribe tu año de nacimiento: "); //El sistema escribe en pantalla para que el usuario escriba su año de nacimiento.
 		ANO_NACIMIENTO = sc.nextInt(); //El sistema espera a que el usuario introduzca su año de nacimiento.
 		
+		sc.close();
+		
 		edadUsuario = anoActual - ANO_NACIMIENTO; //Una vez se tienen los valores de las variables anoActual y ANO_NACIMIENTO, la variable edadUsuario entra en juego, pues su valor es la resta de estas 2.
 		
 		System.out.println("Tienes " + edadUsuario + " años."); //El sistema escribe en pantalla la edad actual del usuario con el valor de edadUsuario.

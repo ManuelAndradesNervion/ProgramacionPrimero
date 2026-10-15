@@ -14,6 +14,8 @@ public class Ejercicio11 {
 		System.out.print("Escribe la cantidad de pesetas: "); //El sistema escribe en pantalla para que el usuario sepa qué debe escribir.
 		cantidadPesetas = sc.nextInt(); //El sistema espera a que el usuario introduzca la cantidad de pesetas y le asigna ese valor a la variable cantidadPesetas.
 
+		sc.close();
+		
 		valorEuros = cantidadPesetas / conversionPesetas; //Se divide la cantidad de pesetas entre el valor de conversión, obteniendo así el resultado en euros con decimales.
 		System.out.println("El valor de las pesetas introducidas en euros es: " + valorEuros + "€"); //Se muestra en pantalla el resultado de la conversión junto con el símbolo del euro.
 	}

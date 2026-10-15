@@ -11,6 +11,7 @@ public class Ejercicio02 {
 		
 		Scanner sc = new Scanner(System.in); //La clase Scanner permite leer el número introducido.
 		edad = sc.nextByte(); //El número introducido solo puede ser leído si es un número entero del tipo byte. El valor introducido será el valor inicial de edad.
+		sc.close();
 		edad++; //El valor que antes poseía edad ahora se incrementa en 1.
 		
 		System.out.println("Para el próximo año tendrás " + edad + " años."); //El sistema escribe en pantalla "Para el próximo año tendrás: " y el valor de la variable edad.

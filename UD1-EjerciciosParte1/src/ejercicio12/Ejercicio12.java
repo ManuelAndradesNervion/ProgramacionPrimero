@@ -14,6 +14,8 @@ public class Ejercicio12 {
 		kilosManzanas = sc.nextDouble(); //El sistema espera a que el usuario introduzca los kilos de manzanas vendidos y le asigna ese valor a kilosManzanas.
 		kilosPeras = sc.nextDouble(); //El sistema espera a que el usuario introduzca los kilos de peras vendidos y le asigna ese valor a kilosPeras.
 
+		sc.close();
+		
 		dineroGanadoManzanas = kilosManzanas * PRECIO_KILO_MANZANA; //Se calcula el dinero ganado con las manzanas multiplicando los kilos vendidos por su precio por kilo.
 		dineroGanadoPeras = kilosPeras * PRECIO_KILO_PERA; //Se calcula el dinero ganado con las peras multiplicando los kilos vendidos por su precio por kilo.
 

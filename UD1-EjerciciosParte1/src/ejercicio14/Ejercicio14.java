@@ -15,6 +15,7 @@ public class Ejercicio14 {
 		primerTrimestre = sc.nextDouble(); //El sistema espera a que el usuario introduzca la nota del primer trimestre y la asigna a primerTrimestre.
 		segundoTrimestre = sc.nextDouble(); //El sistema espera a que el usuario introduzca la nota del segundo trimestre y la asigna a segundoTrimestre.
 		tercerTrimestre = sc.nextDouble(); //El sistema espera a que el usuario introduzca la nota del tercer trimestre y la asigna a tercerTrimestre.
+		sc.close();
 
 		boletinCalificaciones = ((int) primerTrimestre + (int) segundoTrimestre + (int) tercerTrimestre) / 3; //Se convierte cada nota a int (truncando decimales, aunque aquí no debería haberlos), se suman y se divide entre 3 con división entera, obteniendo solo la parte entera de la media.
 		expedienteAcademico = (primerTrimestre + segundoTrimestre + tercerTrimestre) / 3; //Se suman las notas (ya en double) y se divide entre 3, obteniendo la media con decimales.

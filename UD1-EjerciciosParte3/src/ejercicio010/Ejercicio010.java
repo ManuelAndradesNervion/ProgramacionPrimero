@@ -1,8 +1,8 @@
-package ejercicio01;
+package ejercicio010;
 
 import java.util.Scanner; //Paquete encargado de registrar la entrada.
 
-public class Ejercicio01 {
+public class Ejercicio010 {
 
 	public static void main(String[] args) {
 

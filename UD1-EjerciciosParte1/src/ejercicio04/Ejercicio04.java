@@ -17,6 +17,8 @@ public class Ejercicio04 {
 		System.out.print("Escribe la segunda nota: "); //El sistema escribe en pantalla para mostrar al usuario que nota debe escribir justo después.
 		nota2 = sc.nextInt(); //El sistema espera a que el usuario escriba la nota2.
 		
+		sc.close();
+		
 		notaSuma = nota1 + nota2; //Se realiza la suma de nota1 y nota2 y da resultado al valor de notaS
 		notaMedia = notaSuma/2; //NotaSuma se divide entre 2 (ya que han sido 2 notas las que se han sumado) y esto da el valor de notaMedia.
 		

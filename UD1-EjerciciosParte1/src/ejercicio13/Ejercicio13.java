@@ -18,6 +18,8 @@ public class Ejercicio13 {
 		System.out.print("Indica si hay que ir a la biblioteca mediante true o false: "); //El sistema escribe en pantalla para que el usuario sepa qué debe escribir.
 		biblioteca = sc.nextBoolean(); //El sistema espera a que el usuario introduzca true o false y le asigna ese valor a biblioteca.
 
+		sc.close();
+		
 		if ((estaLloviendo == false && tareasRealizadas == true) || biblioteca == true) { //Se entra aquí si no llueve y las tareas están hechas, O si hay que ir a la biblioteca (independientemente de lo anterior).
 			if (biblioteca == true) { //Dentro del caso anterior, se comprueba específicamente si el motivo es ir a la biblioteca.
 				puedoSalirALaCalle = true; //El boolean puedoSalirALaCalle pasa a ser true.

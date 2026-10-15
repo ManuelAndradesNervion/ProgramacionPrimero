@@ -16,6 +16,8 @@ public class Ejercicio08 {
 		System.out.print("Escribe tu edad: "); //El sistema escribe en pantalla para que el usuario sepa qué debe escribir.
 		edad = sc.nextInt(); //El sistema espera a que el usuario introduzca su edad. Al ser sc.nextInt() sólo la leerá si es introducido por números.
 
+		sc.close();
+		
 		if (edad>=18) { //La condición if hace que dependiendo de que si la edad introducida es menor o mayor o igual que 18, imprimirá en pantalla un texto distinto.
 			System.out.println("¡Hola " + nombre + ", qué grande estás! \n¡Ya tienes " + edad + " años!\n"); //Texto escrito en pantalla al ser edad>=18. El \n hace un salto de línea sin tener que realizar otro syso.
 		}
