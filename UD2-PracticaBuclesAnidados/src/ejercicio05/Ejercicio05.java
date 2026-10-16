@@ -18,7 +18,7 @@ public class Ejercicio05 {
 
 		for (int y = 0; y < filasCantidad; y++) {
 			for (int x = 0; x < filasCantidad; x++) {
-				if (x >= filasCantidad - 1 - y) {
+				if (x < filasCantidad - 1 - y) {
 					System.out.print(" ");
 				} else {
 					System.out.print("*");
