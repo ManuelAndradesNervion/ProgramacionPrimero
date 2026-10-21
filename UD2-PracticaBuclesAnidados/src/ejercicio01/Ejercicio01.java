@@ -9,7 +9,7 @@ public class Ejercicio01 {
 		Integer filas = 0, columnas = 0;
 		Scanner sc = new Scanner(System.in);
 
-		//System.out.print("Introduce un número de filas y de columnas para dibujarlo en pantalla: ");
+		System.out.println("Introduce un número de filas y de columnas para dibujarlo en pantalla: ");
 
 		System.out.print("Filas: ");
 		filas = sc.nextInt();
