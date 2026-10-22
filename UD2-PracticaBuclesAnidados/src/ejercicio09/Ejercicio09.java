@@ -14,7 +14,7 @@ public class Ejercicio09 {
 
 		for (int y = 0; y < n; y++) {
 			for (int x = 0; x < 2 * n - 1; x++) {
-				if (x >= y && x < 2 * n - 1 - y) {
+				if (x >= n - y - 1 && x <= n + y - 1) {
 					System.out.print("*");
 				} else {
 					System.out.print(" ");
@@ -22,6 +22,17 @@ public class Ejercicio09 {
 			}
 			System.out.println();
 		}
+		for (int y = n - 2; y >= 0; y--) {
+			for (int x = 0; x < 2 * n - 1; x++) {
+				if (x >= n - y - 1 && x <= n + y - 1) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+
 		sc.close();
 	}
 }
