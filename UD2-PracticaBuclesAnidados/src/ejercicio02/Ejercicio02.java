@@ -14,7 +14,7 @@ public class Ejercicio02 {
 		System.out.print("Filas: ");
 		filas = sc.nextInt();
 
-		System.out.print("Cloumnas: ");
+		System.out.print("Columnas: ");
 		columnas = sc.nextInt();
 
 		sc.close();
