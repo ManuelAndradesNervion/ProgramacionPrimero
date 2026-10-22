@@ -9,9 +9,9 @@ public class Ejercicio05 {
 		Integer filasCantidad = 0;
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Introduce un número para dibujarlo en pantalla: ");
+		System.out.println("Introduce un número para dibujar un triángulo en pantalla: ");
 
-		System.out.print("Filas: ");
+		System.out.print("Numero: ");
 		filasCantidad = sc.nextInt();
 
 		sc.close();

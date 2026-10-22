@@ -9,7 +9,7 @@ public class Ejercicio07 {
 		Integer n;
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Filas: ");
+		System.out.print("Filas y columnas: ");
 		n = sc.nextInt();
 
 		for (int y = 0; y < n; y++) {

@@ -11,7 +11,7 @@ public class Ejercicio03 {
 
 		System.out.println("Introduce un número de filas y de columnas para dibujarlo en pantalla: ");
 
-		System.out.print("Filas: ");
+		System.out.print("Filas y columnas: ");
 		filasCantidad = sc.nextInt();
 
 		sc.close();
