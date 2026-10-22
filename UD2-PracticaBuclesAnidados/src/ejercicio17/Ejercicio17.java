@@ -16,10 +16,9 @@ public class Ejercicio17 {
 
 		sc.close();
 
-		for (int y = 0; y < filasCantidad; y++) {
-			for (int x = 0; x <= y; x++) {
-				for (int numero = 1; numero >= filasCantidad; numero++)
-					System.out.print(numero);
+		for (int y = 1; y <= filasCantidad; y++) {
+			for (int x = 1; x <= y; x++) {
+				System.out.print(x);
 			}
 			System.out.println("");
 		}
