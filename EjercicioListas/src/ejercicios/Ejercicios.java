@@ -1,5 +1,6 @@
 package ejercicios;
 
+import java.util.Iterator;
 import java.util.List;
 import utiles.Utiles;
 
@@ -144,7 +145,6 @@ public class Ejercicios {
 
 	// Ejercicio 3
 
-	
 	public static Integer pasosLaberinto(List<Integer> recorrido) {
 		Integer suma = 0;
 		Integer i = 0;
@@ -158,11 +158,21 @@ public class Ejercicios {
 		}
 		return suma;
 	}
-	
+
 	// Ejercicio 4
 
-	
 	public static Double promedioMagia(List<Integer> niveles) {
-		 
+		Integer nivel = 0;
+		Integer suma = 0;
+		Double media = null;
+		for (int i = 0; i < niveles.size(); i++) {
+			nivel = niveles.get(i);
+			if (nivel <= 5) {
+				suma += nivel;
+			}
+			media = (double) suma / niveles.size();
+			return media;
 		}
+		return media;
+	}
 }
