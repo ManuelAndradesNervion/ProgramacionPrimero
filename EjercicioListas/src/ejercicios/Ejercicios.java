@@ -165,14 +165,16 @@ public class Ejercicios {
 		Integer nivel = 0;
 		Integer suma = 0;
 		Double media = null;
+		Integer division = 0;
 		for (int i = 0; i < niveles.size(); i++) {
 			nivel = niveles.get(i);
-			if (nivel <= 5) {
+			if (nivel >= 5) {
 				suma += nivel;
+				division++;
 			}
-			media = (double) suma / niveles.size();
-			return media;
 		}
+		media = (double) suma / division;
+		media = (double) Math.round((media) * 100) / 100;
 		return media;
 	}
 }
