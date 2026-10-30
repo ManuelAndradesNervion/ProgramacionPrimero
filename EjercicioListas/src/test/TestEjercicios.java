@@ -9,29 +9,29 @@ public class TestEjercicios {
 
 	public static void main(String[] args) {
 		// List<Integer> numeros = List.of(2, 4, 3, 6, 5, 28);
-		List<Integer> numeros = new ArrayList<Integer>();
-		numeros.add(2);
-		numeros.add(4);
-		numeros.add(3);
-		numeros.add(6);
-		numeros.add(5);
-		numeros.add(28);
-		System.out.println("Lista: " + numeros);
+		List<Integer> listaNumeros = new ArrayList<Integer>();
+		listaNumeros.add(2);
+		listaNumeros.add(4);
+		listaNumeros.add(3);
+		listaNumeros.add(6);
+		listaNumeros.add(5);
+		listaNumeros.add(28);
+		System.out.println("Lista: " + listaNumeros);
 
 		System.out.println("\n--- SUMAS ---");
-		System.out.println("Suma 1 (for-each): " + Ejercicios.suma1(numeros));
-		System.out.println("Suma 2 (for):      " + Ejercicios.suma2(numeros));
-		System.out.println("Suma 3 (while):    " + Ejercicios.suma3(numeros));
+		System.out.println("Suma 1 (for-each): " + Ejercicios.suma1(listaNumeros));
+		System.out.println("Suma 2 (for):      " + Ejercicios.suma2(listaNumeros));
+		System.out.println("Suma 3 (while):    " + Ejercicios.suma3(listaNumeros));
 
 		System.out.println("\n--- CONTADORES ---");
-		System.out.println("Cantidad de pares:     " + Ejercicios.contarPares(numeros));
-		System.out.println("Cantidad de primos:    " + Ejercicios.contarPrimos(numeros));
-		System.out.println("Cantidad de perfectos: " + Ejercicios.contarPerfectos(numeros));
+		System.out.println("Cantidad de pares:     " + Ejercicios.contarPares(listaNumeros));
+		System.out.println("Cantidad de primos:    " + Ejercicios.contarPrimos(listaNumeros));
+		System.out.println("Cantidad de perfectos: " + Ejercicios.contarPerfectos(listaNumeros));
 
 		System.out.println("\n--- MEDIAS ---");
-		System.out.println("Media 1 (for-each): " + Ejercicios.media1(numeros));
-		System.out.println("Media 2 (for):      " + Ejercicios.media2(numeros));
-		System.out.println("Media 3 (while):    " + Ejercicios.media3(numeros));
+		System.out.println("Media 1 (for-each): " + Ejercicios.media1(listaNumeros));
+		System.out.println("Media 2 (for):      " + Ejercicios.media2(listaNumeros));
+		System.out.println("Media 3 (while):    " + Ejercicios.media3(listaNumeros));
 
 		System.out.println("\n--- PRUEBAS DE UTILES ---");
 		System.out.println("¿7 es primo?       " + Utiles.esPrimo(7));
@@ -61,7 +61,7 @@ public class TestEjercicios {
 		Ejercicios.cuentaAtrasSustos(4);
 		
 		System.out.println("\n--- EJERCICIO 6 ---");
-		List<Integer> listaNumeros = List.of(3, 9, 0, 4, 10, 0, -3, 5);
+		List<Integer> numeros = List.of(3, 9, 0, 4, 10, 0, -3, 5);
 		System.out.println(Ejercicios.sumaEntreCeros(numeros)); // 4+10 = 14
 		// TODO Seguir haciendo las pruebas de los ejercicios
 	}
