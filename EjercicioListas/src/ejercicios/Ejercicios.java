@@ -177,4 +177,35 @@ public class Ejercicios {
 		media = (double) Math.round((media) * 100) / 100;
 		return media;
 	}
+
+	// Ejercicio 5
+
+	public static void cuentaAtrasSustos(Integer n) {
+		if (n > 0) {
+			System.out.println("Boo " + n);
+			cuentaAtrasSustos(n - 1);
+		} else {
+			System.out.println("¡Susto final!");
+		}
+	}
+
+	// Ejercicio 6
+
+	public static Integer sumaEntreCeros(List<Integer> numeros) {
+		Integer suma = 0;
+		Integer contadorCeros = 0;
+		Integer numero = 0;
+		for (int i = 0; i < numeros.size(); i++) {
+			numero = numeros.get(i);
+			if (numero == 0) {
+				contadorCeros++;
+				if (contadorCeros == 2) {
+					break;
+				}
+			} else if (contadorCeros == 1) {
+				suma += numero;
+			}
+		}
+		return suma;
+	}
 }

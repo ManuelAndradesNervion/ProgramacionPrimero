@@ -57,6 +57,12 @@ public class TestEjercicios {
 		List<Integer> magia = List.of(3, 9, 7, 4, 10);
 		System.out.println(Ejercicios.promedioMagia(magia)); // (9+7+10)/3 = 8.67
 		
+		System.out.println("\n--- EJERCICIO 5 ---");
+		Ejercicios.cuentaAtrasSustos(4);
+		
+		System.out.println("\n--- EJERCICIO 6 ---");
+		List<Integer> listaNumeros = List.of(3, 9, 0, 4, 10, 0, -3, 5);
+		System.out.println(Ejercicios.sumaEntreCeros(numeros)); // 4+10 = 14
 		// TODO Seguir haciendo las pruebas de los ejercicios
 	}
 }
