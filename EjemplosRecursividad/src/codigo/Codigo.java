@@ -19,10 +19,14 @@ public class Codigo {
 
 	public static Long factorial(Integer n) {
 		Long numero = 0L;
+		if (n<0) {
+			System.out.println("El número introducido no es válido.");
+			return null;
+		}
 		if (n == 0) {
 			numero = 1L;
 			return numero;
-		} else if (n != 0) {
+		} else {
 			numero = n * factorial(n - 1);
 		}
 		return numero;
