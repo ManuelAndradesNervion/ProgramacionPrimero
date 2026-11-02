@@ -12,7 +12,12 @@ public class Test {
 		System.out.println(Ejercicios.precioEntrada(-1, "LUNES", false));
 
 		System.out.println("-- Ejercicio 2 --");		
-
+		Ejercicios.dibujarZ(5);
+		
+		System.out.println("-- Ejercicio 3 --");
+		System.out.println(Ejercicios.sumaPrimerosEspeciales(1, 10, 3));
+		System.out.println(Ejercicios.sumaPrimerosEspeciales(1, 10, 5));
+		System.out.println(Ejercicios.sumaPrimerosEspeciales(8, 15, 2));
 		System.out.println("-- Ejercicio 4 --");
 
 	}

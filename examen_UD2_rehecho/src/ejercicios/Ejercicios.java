@@ -1,6 +1,6 @@
 package ejercicios;
 
-import java.util.Iterator;
+import utiles.Utiles;
 
 public class Ejercicios {
 
@@ -63,12 +63,25 @@ public class Ejercicios {
 	public static void dibujarZ(Integer lado) {
 		for (int i = 0; i < lado; i++) {
 			for (int j = 0; j < lado; j++) {
-				if() {
-					System.out.println("*");
-				} else if () {
+				if (i == 0 || i == lado - 1 || i + j == lado - 1) {
+					System.out.print("*");
+				} else {
 					System.out.print(" ");
 				}
 			}
-		} System.out.println();
+			System.out.println();
+		}
+	}
+
+	public static Integer sumaPrimerosEspeciales(Integer inicio, Integer fin, Integer cantidad) {
+		Integer total = cantidad;
+		Integer resultado;
+		
+		for (int i = inicio; i < fin; i++) {
+			if (i) {
+				
+			}
+		}
+		return resultado;
 	}
 }
