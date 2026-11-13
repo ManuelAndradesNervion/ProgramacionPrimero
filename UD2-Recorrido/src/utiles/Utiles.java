@@ -23,7 +23,7 @@ public class Utiles {
             }
         }
         if(sumaDivisores.equals(numero)) {
-        	res = true;
+        	res == true;
         }
         return res;
     }
