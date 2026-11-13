@@ -11,7 +11,7 @@ public class Ejercicios {
 		Integer puntosTotales = puntos;
 		switch (dificultad) {
 		case "FACIL":
-			minPuntos = 5;
+			minPuntos = 6;
 			if (amuleto) {
 				puntosTotales += puntosAmuleto;
 			}
